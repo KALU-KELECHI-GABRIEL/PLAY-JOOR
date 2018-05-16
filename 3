@@ -1,0 +1,10 @@
+function elem_checker(x,array){
+    for(i=0;i<array.length;i++){
+        if(x===array[i]){
+        x= 'spotted'+x
+        return x}
+    }
+}
+let x=1;
+let array=[4,5,6,7,8,3,1];
+alert(elem_checker(x,array));
