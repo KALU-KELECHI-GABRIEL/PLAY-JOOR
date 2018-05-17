@@ -1,0 +1,12 @@
+function odd_ones(array){
+    var narr=[];
+    for(i=1;i<array.length;i++){
+       if(i%2 !== 0){
+           let c = array[i];
+           narr[i-1] = c;
+       }
+    }
+return narr;
+}
+let array=[1,2,3,4,5,6,7,8,9,10];
+alert(odd_ones(array));
